@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0px;
@@ -94,3 +95,37 @@ a{
     margin: 10px 70px;
     padding: 10px 10px;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+  #div1{
+    height: 100%;
+    width:100%;
+    background-image: url(javier-miranda-nc1zsYGkLFA-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 60px;
+    transition: 1s ease-in-out;
+  }
+  #div1:hover{
+    transform:scale(1.05);
+    transition: 1s ease-in-out;
+}
+  h1{
+    font-family: "Fontdiner Swanky", serif;
+     font-weight: 100;
+     font-style: normal;
+     font-size:25px;
+   color: rgb(247, 167, 69);
+  text-shadow: 0 0 5px rgb(178, 159, 122), 0 0 10px rgb(215, 199, 112), 0 0 20px rgb(203, 188, 145);
+}
+
+  
+>>>>>>> task2/main
