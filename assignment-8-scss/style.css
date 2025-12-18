@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(19, 32, 47), rgb(41, 64, 57), rgb(2, 2, 2));
+  display: flex;
+}
+main section {
+  background-color: rgb(203, 57, 57);
+  flex-grow: 1;
+  transition: all 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  -o-object-position: center;
+     object-position: center;
+  display: block;
+  position: relative;
+}
+main section:hover {
+  flex-grow: 1.5;
+  z-index: 1;
+  box-shadow: 1 1 12 rgb(206, 131, 131);
+}
+main section:nth-child(1) {
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3enE1dm9saTNhcWt3cDFpcGZnbzcyaTVlaXFneXExM3NxZ2xkYzN2MyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/lpWq49FLATPlCTH4Yj/giphy.webp");
+}
+main section:nth-child(2) {
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aWNmenN4eW8yZW51b3ZtY2o1NXh6NXRrNmR0eWJvcWkzMHluNmlqYyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/10olZ3QsdfXeSY/giphy.webp");
+}
+main section:nth-child(3) {
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eXU0N2ZqeXY5bHF3djhqdTVqNTdwaTNkaXNpeWU3b3g4emtlNWk0ZiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/jpxjacGJcdies/giphy.webp");
+}
+main section:nth-child(4) {
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eXU0N2ZqeXY5bHF3djhqdTVqNTdwaTNkaXNpeWU3b3g4emtlNWk0ZiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/gK99k8iMtKeJ2/giphy.webp");
+}/*# sourceMappingURL=style.css.map */
